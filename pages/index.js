@@ -20,7 +20,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className='bg-stone-50 px-10 py-10 md:px-20 dark:bg-gray-900 lg:px-40'>
+      <main className='bg-gray-50 px-10 py-10 md:px-20 dark:bg-gray-900 lg:px-40'>
         {/* section one */}
         <section className='min-h-screen'>
           <nav className='py-10 mb-12 flex justify-between items-center'>
@@ -64,7 +64,7 @@ export default function Home() {
             </p>
           </div>
           <div className='flex flex-col items-center mt-20 md:flex-row gap-14 justify-center md:items-start'>
-            <div className='bg-zinc-50 shadow-lg p-5 rounded-xl w-80 dark:bg-gray-800 lg:w-96'>
+            <div className='bg-gray-100 shadow-lg p-5 rounded-xl w-80 dark:bg-gray-800 lg:w-96'>
               <Image src={design} width={100} height={100} alt="design"/>
               <h3 className="text-gray-800 uppercase text-lg font-medium pt-8 pb-2 dark:text-zinc-300">
                 Front End (Beautiful UI/UX)
@@ -81,7 +81,7 @@ export default function Home() {
               <p className="text-orange-400 py-1 font-burtons">WordPress</p>
             </div>
 
-            <div className='bg-zinc-50 shadow-lg p-5 rounded-xl w-80 dark:bg-gray-800 lg:w-96'>
+            <div className='bg-gray-100 shadow-lg p-5 rounded-xl w-80 dark:bg-gray-800 lg:w-96'>
               <Image src={code} width={100} height={100} alt="programming"/>
               <h3 className="text-gray-800 uppercase text-lg font-medium pt-8 pb-2 dark:text-zinc-300">
                 Back End (Logic and Architecture)
