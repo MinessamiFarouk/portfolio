@@ -20,19 +20,18 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className='bg-white px-10 py-10 md:px-20 dark:bg-gray-900 lg:px-40'>
+      <main className='bg-stone-50 px-10 py-10 md:px-20 dark:bg-gray-900 lg:px-40'>
         {/* section one */}
         <section className='min-h-screen'>
           <nav className='py-10 mb-12 flex justify-between items-center'>
             <h1 className='text-xl font-burtons dark:text-gray-300'>DevelopedBy</h1>
             <ul className='flex items-center'>
               <li><BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className='text-xl cursor-pointer dark:text-zinc-300'/></li>
-              {/* <li><a href="" target="_blank" rel="noopener noreferrer" download className='bg-gradient-to-r from-zinc-500 to-orange-400 text-white py-2 px-4 rounded-xl ml-10 cursor-pointer font-burtons'>Resume</a></li> */}
               <li><a href="/asset/Farouk Minessami - Full Stack Developer.pdf" target="_blank" rel="noopener noreferrer" download className='bg-gradient-to-r from-zinc-500 to-orange-400 text-white py-2 px-4 rounded-xl ml-10 cursor-pointer font-burtons'>Resume</a></li>
             </ul>
           </nav>
-          <div className='p-8 mx-auto flex flex-col lg:flex-row items-center'>
-            <div className='p-1 mb-12'>
+          <div className='p-4 mx-auto flex flex-col justify-between lg:flex-row items-center'>
+            <div className='p-1 mb-12 lg:mb-0'>
               <h1 className='text-4xl font-medium text-zinc-600 py-2 dark:text-gray-300 md:text-6xl'>Minessami Farouk</h1>
               <h2 className='text-3xl text-orange-400 py-2 font-burtons md:text-4xl'>Full Stack Developer</h2>
               <p className='text-md text-gray-800 leading-8 tracking-wider py-2 dark:text-gray-500 md:text-xl max-w-xl'>
@@ -42,7 +41,7 @@ export default function Home() {
                 i can help you to bring your tech vision to life? Let's connect and make it happen.
               </p>
             </div>
-            <div className='relative mx-auto bg-gradient-to-b from-gray-300 rounded-full w-80 h-80 overflow-hidden md:w-96 md:h-96'>
+            <div className='relative bg-gradient-to-b from-gray-300 rounded-full w-64 h-64 overflow-hidden md:w-96 md:h-96'>
               <Image src={farouk} className="object-contain" fill alt='MinessamiFarouk'/>
             </div>
           </div>
