@@ -28,7 +28,7 @@ export default function Home() {
             <ul className='flex items-center'>
               <li><BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className='text-xl cursor-pointer dark:text-zinc-300'/></li>
               {/* <li><a href="" target="_blank" rel="noopener noreferrer" download className='bg-gradient-to-r from-zinc-500 to-orange-400 text-white py-2 px-4 rounded-xl ml-10 cursor-pointer font-burtons'>Resume</a></li> */}
-              <li><a href="/asset/FaroukMinessami - FullStack Developer.pdf" target="_blank" rel="noopener noreferrer" download className='bg-gradient-to-r from-zinc-500 to-orange-400 text-white py-2 px-4 rounded-xl ml-10 cursor-pointer font-burtons'>Resume</a></li>
+              <li><a href="/asset/Farouk Minessami - Full Stack Developer.pdf" target="_blank" rel="noopener noreferrer" download className='bg-gradient-to-r from-zinc-500 to-orange-400 text-white py-2 px-4 rounded-xl ml-10 cursor-pointer font-burtons'>Resume</a></li>
             </ul>
           </nav>
           <div className='p-8 mx-auto flex flex-col lg:flex-row items-center'>
